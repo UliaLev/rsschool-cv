@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body>
+    <div class="main-container-centered">
+        <div class="main-content">
+            <div class="right">
+                <header class="header">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        </ul>
+                    </nav>
+                    <hr>
+                    <h2 class="profession">Junior Full-Stack Developer</h2>
+                    <h1 class="my-name">Uliana Levina</h1>
+                </header>
+                <main class="main">
+                    <section class="about-me" id="about">
+                        <h3 class="title">About Me</h3>
+                        <p class="about-me-description"> Business Informatics student, striving to develop as a
+                            full-stack developer.</p>
+                    </section>
+                    <section class="education" id="education">
+                        <h3 class="title">Education</h3>
+                        <ul>
+                            <li>
+                                <h4 class="uni"> University of Siegen </h4>
+                                <h4 class="programm">Business Informatics</h4>
+                                <p class="time-country"> April 2019 – present <span class="edu-divider">|</span> Germany
+                                </p>
+                            </li>
+                            <li>
+                                <h4 class="uni">Moscow State Regional Institute of Social Studies and Humanities
+                                    (Kolomna State Pedagogical Institute)</h4>
+                                <h4 class="programm">English/German Teacher</h4>
+                                <p class="time-country">Sept. 2009 – July 2014 <span class="edu-divider">|</span> Russia
+                                </p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="courses" id="courses">
+                        <h3 class="title">Courses</h3>
+                        <ul class="courses-list">
+                            <li> Java, C#, C++, HTML, CSS, JavaScript tutorials <span> <span
+                                        class="course-brackets">[</span> <a href="https://www.w3schools.com"
+                                        class="project-link"> w3schools </a><span class="course-brackets">]</span>
+                                </span> </li>
+                            <li> Responsive Web Design <span> <span class="course-brackets">[</span> <a
+                                        href="https://www.freecodecamp.org/learn/responsive-web-design"
+                                        class="project-link"> freeCodeCamp
+                                    </a><span class="course-brackets">]</span> </span> </li>
+                            <li> JavaScript/Front-end. Stage 0 <span> <span class="course-brackets">[</span> <a
+                                        href="https://rs.school/js-stage0/" class="project-link"> RS School</a> <span
+                                        class="course-brackets">]</span> </span> </li>
+                        </ul>
+                    </section>
+                    <section class="projects" id="projects">
+                        <h3 class="title">Projects</h3>
+                        <ul class="project-item-list">
+                            <li class="project-item">
+                                <span class="project-text">
+                                    <a href="https://sliding-cat-cards.netlify.app/" class="project-link">
+                                        https://sliding-cat-cards.netlify.app/ </a>
+                                    <span> <span class="skill-brackets">[</span> HTML5, CSS3, JavaScript <span
+                                            class="project-divider">|</span> Sliding cards <span
+                                            class="skill-brackets">]</span>
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="project-item">
+                                <span class="project-text">
+                                    <a href="https://slider-cities.netlify.app/"
+                                        class="project-link">https://slider-cities.netlify.app/</a>
+                                    <span><span class="skill-brackets">[</span> HTML5, CSS3, JavaScript <span
+                                            class="project-divider">|</span> Slider <span
+                                            class="skill-brackets">]</span></span>
+                                </span>
+                            </li>
+                            <li class="project-item">
+                                <span class="project-text">
+                                    <a href="https://github.com/UliaLev/FamilyTree"
+                                        class="project-link">https://github.com/UliaLev/FamilyTree
+                                    </a>
+                                    <span><span class="skill-brackets">[</span> Java <span
+                                            class="project-divider">|</span> Part of the university project <span
+                                            class="skill-brackets">]</span></span>
+                                </span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="code-sample" id="code">
+                        <h3 class="title"> Code Sample</h3>
+                        <p class="code-description"> <span class="code-brackets"> { </span> Codewars: Kata Kyu 8,
+                            Calculate BMI (Java) <span class="code-brackets"> } </span></p>
+                        <pre>
+                            <code class="code-java">
+                                public class Calculate {
+                                    public static String bmi (double weight, double height)
+                                {
+                                        double bmi = weight / (height * height);
+                                        if (bmi &lt;&#61; 18.5) return "Underweight";
+                                        if (bmi &lt;&#61; 25.0) return "Normal";
+                                        if (bmi &lt;&#61; 30.0) return "Overweight";
+                                        if (bmi &gt; 30.0) return "Obese";
+                                        return " ";
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </section>
+                </main>
+            </div>
+            <aside class="sidebar">
+                <img id="photo" src="assets/img/my-photo.jpg" alt="My Photo">
+                <section class="contacts-section" id="contacts">
+                    <h3 class="sidebar-title">Contacts:</h3>
+                    <div>
+                        <span class="tel-1">Phone:</span>
+                        <a class="tel-2">+49 777 777 77 77</a>
+                    </div>
+                    <div>
+                        <span class="email-1">E-mail:</span>
+                        <a class="email-2">imsohappy@gmail.com</a>
+                    </div>
+                </section>
+                <section class="tech-skills" id="skills">
+                    <h3 class="sidebar-title">Tech Skills:</h3>
+                    <ul class="skill-list">
+                        <li class="bullet"> <span class="bullet-text">HTML5</span> </li>
+                        <li class="bullet"> <span class="bullet-text">CSS3</span></li>
+                        <li class="bullet"> <span class="bullet-text">GIT, GitHub</span></li>
+                        <li class="bullet"> <span class="bullet-text">JavaScript</span></li>
+                        <li class="bullet"> <span class="bullet-text">Java</span></li>
+                        <li class="bullet"> <span class="bullet-text">C#</span></li>
+                        <li class="bullet"> <span class="bullet-text">C++</span></li>
+                        <li class="bullet"> <span class="bullet-text">SQL (MySQL, SQLite)</span></li>
+                        <li class="bullet"> <span class="bullet-text">Eclipse, VS Code, IntelliJ IDEA</span></li>
+                        <li class="bullet"> <span class="bullet-text">Unity</span></li>
+                    </ul>
+                </section>
+                <section class="soft-skills">
+                    <h3 class="sidebar-title">Soft Skills:</h3>
+                    <ul class="skill-list">
+                        <li class="bullet"> <span class="bullet-text">Scrum</span></li>
+                        <li class="bullet"> <span class="bullet-text">Agile</span></li>
+                        <li class="bullet"> <span class="bullet-text">GTD</span></li>
+                        <li class="bullet"> <span class="bullet-text">Teamwork</span></li>
+                    </ul>
+                </section>
+                <section class="languages" id="languages">
+                    <h3 class="sidebar-title">Languages:</h3>
+                    <ul class="lang">
+                        <li class="bullet"> <span class="bullet-text">Englich: Advanced</span></li>
+                        <li class="bullet"> <span class="bullet-text">German: Advanced</span></li>
+                        <li class="bullet"> <span class="bullet-text">Japanese: Basic N5</span></li>
+                        <li class="bullet"> <span class="bullet-text">Russian: Native</span></li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-year">
+            <p class="year"> 2022 </p>
+        </div>
+        <div class="footer-github">
+            <a href="https://github.com/UliaLev" class="my-github"><img src="assets/img/GitHub-Emblem.jpg"
+                    alt="Feel free to visit my GitHub"></a>
+        </div>
+        <div class="footer-rs">
+            <a href="https://rs.school/js/"><img src="assets/img/rs-school.jpg" alt="RS School"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

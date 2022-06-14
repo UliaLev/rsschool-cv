@@ -1,0 +1,369 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #05723f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(8, 90, 3);
+    font-style: oblique;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color:rgb(25, 197, 36);
+}
+
+.main-container-centered {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    text-align: center;
+}
+
+.main-content {
+    background-color: rgb(232, 253, 223);
+    flex-direction: row-reverse;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.left {
+    width: 20%;
+    padding-right: 20px;
+}
+
+.right {
+    width: 65%;
+    padding: 5px;
+}
+
+.main {
+    padding: 0 10px;
+}
+
+.my-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0 0 25px 0;
+    color: #000000;
+    text-align: center;
+}
+
+.about-me-description {
+    width: 700px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.education {
+    margin: 0px 0px 20px 0px;
+    padding: 30;
+    display: flex;
+    flex-direction: column;
+}
+
+.uni {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #05723f;
+    margin: 0 0 15px 0;
+}
+
+.programm {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 15px 0;
+}
+
+.time-country {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 20px 0;
+
+}
+
+.courses {
+    margin: 0px 0px 20px 0px;
+    padding: 30;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projects {
+    margin: 0px 0px 20px 0px;
+    padding: 30;
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-list,
+.project-item-list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0 0 20px 0;
+}
+
+.project-item {
+    color: #000;
+    font-weight: bold;
+}
+
+.project-text {
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.project-link {
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.project-link:hover {
+    color: rgb(25, 197, 36);
+}
+
+.skill-brackets,
+.course-brackets {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(10, 146, 5);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.edu-divider {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 15px;
+    color: rgb(10, 146, 5);
+}
+
+.project-divider {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 15px;
+    color: rgb(10, 146, 5);
+}
+
+.code-description {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin: auto;
+}
+
+.code-sample {
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+pre {
+    padding-right: 10px;
+    font-family: "Droid Sans";
+    background-color: #353635;
+    font-size: 16px;
+    color: floralwhite;
+}
+
+.code-brackets {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgb(10, 146, 5);
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+/*sidebar*/
+
+#photo {
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.sidebar {
+    background-color: #242524;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+
+.contacts-section,
+.tech-skills,
+.soft-skills,
+.languages {
+    margin: 0px 0 0 40px;
+    color: #fff;
+}
+
+
+.sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+}
+
+/*contacts side bar*/
+
+.tel-1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 31px;
+}
+
+.email-1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 7px;
+}
+
+.tel-2,
+.email-2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #949ba3;
+    opacity: 0.5;
+}
+
+.skill-list,
+.lang {
+    padding: 0 0 0 15px;
+}
+
+.bullet {
+    color: #05723f;
+}
+
+.bullet-text {
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 1300px;
+}
+
+.footer img {
+    width: 100px;
+    height: auto;
+    padding: 0px 10px;
+    margin: 0px 0px;
+}
+
+.year {
+    color: #494949;
+    font-size: 22px;
+
+}
+
+.footer-github {
+    padding-top: 10px;
+}
+
+.footer-rs {
+    padding-top: 10px;
+}
